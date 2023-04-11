@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake shop</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cssstylesheet">
+</head>
+<body>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: purple;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">MAGIC Cake Shop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Account
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="signin.html">Sign Up</a></li>
+                                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                </ul>
+                            </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search Cakes" aria-label="Search">
+                        <button class="btn btn-outline-success" style="background-color: cornsilk;" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main style="background-color: cyan;">
+    <section class="row my-5 py-5">
+        <div class="col-md-12">
+            <h2 class="text-center">Signup</h2>
+        </div>
+
+        <div class="offset-md-4 col-md-4">
+            <div class="card shadow" style="background-color: rgb(10, 243, 243);">
+                <div class="card-body">
+                    <form action="#" method="POST">
+                        <div class="form-group mb-2">
+                            <label for="name">Name</label>
+                            <input type="text" required name="name" id="name" placeholder="Enter your name" class="form-control">
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="email">Email</label>
+                            <input type="email" required name="email" id="email" placeholder="Enter your email" class="form-control">
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="password">Enter Password</label>
+                            <input type="password" required name="pwd1" id="pwd1" placeholder="Create a strong password" class="form-control">
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="password">Confirm Password</label>
+                            <input type="password" required name="pwd2" id="pwd2" placeholder="Confirm Password" class="form-control">
+                        </div>
+                        
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="checkbox" required value="" id="terms_and_condtions">
+                            <label class="form-check-label" for="terms_and_condtions">
+                                Accept to <a href="terms-adn-condtions.html">terms & conditions</a>
+                            </label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="checkbox" value="" id="subscribe">
+                            <label class="form-check-label" for="subscribe">
+                                Subscribe to our news letter (Optional)
+                            </label>
+                        </div>
+                        <div class="form-group mb-2">
+                            <button type="submit" class="btn btn-primary">Signup</button>
+                        </div>
+                        <div class="form-group">
+                            Already have an account? <a href="login.html">Login now!</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer class=" mt-3 py-3" style="background-color: darkgray;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-light">
+                    <h3>About Us:</h3><br>
+                    <h3>MAGIC Cake Shop</h3>
+                    Chef: <br>Vaishnavi Bhambre <br>
+                      Supriya Jagtap <br>
+                      contact: <br> +917058482987 /
+                      +919970510818
+
+                    
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-light">Quick Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="text-light" href="index.html">Home</a></li>
+                        <li><a class="text-light" href="#">Products</a></li>
+                        <li><a class="text-light" href="#">Terms & Conditions</a></li>
+                        <li><a class="text-light" href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-light">
+                    <address>
+                        <h3>Address: </h3>
+                        Bakshi Road, Suyog Colony Shanti nagar,Satana <br>
+                        Dist.Nashik, <br>
+                        MAHARASHTRA 423301
+                        
+                    </address>
+
+                </div>
+               
+            </div>
+        </div> <hr>
+        <div class="text-light" style="text-align: center;">
+            <p>Copyrights &copy; 2021. MAGIC Cake shop<br>All Rights Reserved.</p>
+            <p class="fs-4">
+                <a class="text-light" href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a class="text-light" href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a class="text-light" href="#"><i class='bx bxl-twitter'></i></a>
+                <a class="text-light" href="#"><i class='bx bxl-linkedin-square'></i></a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+     <!-- Jquery -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+    
+
+</body>
+</html>
